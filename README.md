@@ -1,7 +1,4 @@
-# anpr
-Real-time Automatic Number Plate Recognition 
-
-
+# Real-time Automatic Number Plate Recognition (ANPR)
 
 # Reference:
 1. License plates are detected using [thesachinshakya's License Plate Detection Model](https://github.com/thesachinshakya/Number_Plate_Detection).
