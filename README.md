@@ -4,4 +4,4 @@ Real-time Automatic Number Plate Recognition
 
 
 # Reference:
-> https://github.com/thesachinshakya/Number_Plate_Detection
+1. https://github.com/thesachinshakya/Number_Plate_Detection
