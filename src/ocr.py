@@ -1,5 +1,3 @@
-#Reference: https://pyimagesearch.com/2014/09/15/python-compare-two-images/
-
 from skimage.metrics import structural_similarity as ssim
 import os
 import cv2
