@@ -1,23 +1,3 @@
-
-#Reference: https://github.com/thesachinshakya/Number_Plate_Detection
-
-#Make changes:
-    #change all file paths - DONE
-    #Remove the save image when clicked "s" - DONE
-    #save image when plate is detected automatically - DONE
-    #only save one image per plate, not one image per frame - DONE
-        #will create duplicates
-        #remove duplicate plates by checking which images are too similar and deleting all except one
-#Next steps:
-    #get colab notebook code to a local vs code file (Reference: https://github.com/nicknochnack/ANPRwithPython)
-        #already modified the code to handle multiple plates but didn't have to...:(
-            #upload the modified code to GH and reference my own code? Nope.
-    #hook that code with images folder
-    #perform ocr using that code
-    #Output
-        #save images with appened boxes and license plate text on top
-        #save the plates in a csv/excel/other file
-
 import cv2
 from ocr import final
 
