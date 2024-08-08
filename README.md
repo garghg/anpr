@@ -1,25 +1,9 @@
 # Real-time Automatic Number Plate Recognition (ANPR)
 The ANPR (Automatic Number Plate Recognition) Application is a powerful and efficient tool designed to recognize and extract vehicle license plate numbers from real-time video streams. My application here uses a camera to detect, capture, and save license plates from real-time video, and then applies Optical Character Recognition (OCR) to those captured images to effectively and quickly acquire the license plate numbers.
 
-```mermaid
-flowchart TD
-    A[Start] --> B[Initialize Video Capture]
-    B --> C{Main Loop}
-    C -->|Frame Read| D[Convert Frame to Grayscale]
-    D --> E[Detect Number Plates]
-    E -->|For Each Plate| F{Check Area > Min Area}
-    F -->|Yes| G[Draw Rectangle and Label]
-    G --> H[Extract and Resize ROI]
-    H --> I[Save Resized Image]
-    F -->|No| C
-    I --> C
-    C -->|Esc Pressed| J[Release Resources]
-    J --> K[Call final() Function]
-    K --> L[Delete Duplicate Images]
-    L --> M[Perform OCR]
-    M --> N[Save Results to CSV]
-    N --> O[End]
-```
+## Flowchart Explanation
+![anpr_flowchart](https://github.com/user-attachments/assets/d8bf13f9-82a7-4bb5-b07b-21c41f945c0e)
+
 
 ## Files
 ### Number_plate_detection.py
